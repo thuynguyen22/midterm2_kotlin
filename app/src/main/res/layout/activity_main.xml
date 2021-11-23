@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ListView
+        android:id="@+id/rvFoodItems"
+        android:layout_width="match_parent"
+        android:layout_height="379dp" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="109dp"
+        android:layout_height="64dp"
+        android:text="Random"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="570dp"
+        tools:layout_marginHorizontal="133dp" />
+
+        <ImageView
+            android:id="@+id/rdFoodImage"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@color/purple_200"/>
+
+</LinearLayout>
